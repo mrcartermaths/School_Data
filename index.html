@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maths Assessment Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Maths Assessment Tracker</h1>
+    <p class="subtitle">Select a year group to view pupil grades and assessment scores.</p>
+
+    <section class="card">
+      <label for="year-group">Year group</label>
+      <select id="year-group">
+        <option value="">Choose a year group…</option>
+      </select>
+    </section>
+
+    <section id="results" class="card hidden">
+      <h2 id="results-title"></h2>
+      <div class="table-wrap">
+        <table id="results-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
